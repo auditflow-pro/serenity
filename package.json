@@ -1,0 +1,22 @@
+{
+  "name": "operion-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Operion AI Operations Bridge Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "email-receiver": "node email-receiver.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "imap": "^0.8.17",
+    "mailparser": "^3.6.5",
+    "nodemailer": "^8.0.3",
+    "pg": "^8.11.0",
+    "uuid": "^9.0.0"
+  }
+}
